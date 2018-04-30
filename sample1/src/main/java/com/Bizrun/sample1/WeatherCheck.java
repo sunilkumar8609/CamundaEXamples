@@ -1,0 +1,19 @@
+package com.Bizrun.sample1;
+
+import java.util.Random;
+
+import org.camunda.bpm.engine.delegate.DelegateExecution;
+import org.camunda.bpm.engine.delegate.JavaDelegate;
+
+public class WeatherCheck implements JavaDelegate {
+
+	@Override
+	public void execute(DelegateExecution arg0) throws Exception {
+		// TODO Auto-generated method stub
+		Random rando = new Random();
+		arg0.setVariable("name", "Sunil");
+		arg0.setVariable("weatherOk", rando.nextBoolean());
+
+	}
+
+}

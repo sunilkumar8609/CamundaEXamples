@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="org.camunda.bpm.engine.RepositoryService"/>
+<fullyQualifiedTypeName name="org.camunda.bpm.engine.repository.ProcessDefinition"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="org.camunda.bpm.engine.runtime.ProcessInstance"/>
+<fullyQualifiedTypeName name="org.camunda.bpm.engine.RuntimeService"/>
+</qualifiedTypeNameHistroy>
